@@ -129,8 +129,8 @@ window.addEventListener('resize', function() {
 });
 
 const graph = {
-    'Entrance': ['Hallway','Hallway1','Hallway2','Hallway3','Hallway4','Hallway4a'],
-    'Exit': ['Hallway8b','Hallway8a','Hallway8',],
+    'Entrance': ['Hallway'],
+    'Exit': ['Hallway8b'],
     'Family clinic': ['Hallway'],
     'Admission': ['Hallway'],
     'Hallway': ['Hallway1', 'Family clinic', 'Admission','Entrance'],
@@ -429,4 +429,5 @@ document.addEventListener('DOMContentLoaded', () => {
     toInput.addEventListener('keypress', (e) => {
         if (e.key === 'Enter') document.getElementById('searchBtn').click();
     });
+
 });
